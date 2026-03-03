@@ -1,8 +1,9 @@
+import style from "./About.module.css"
+const AboutPage = async () => {
 
-const AboutPage = () => {
     return (
         <div>
-            <h1>This is about page</h1>
+            <h1 className={style.heading}>This is about page</h1>
         </div>
     );
 };
